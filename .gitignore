@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
+
+#yarn
+/.yarn/
+/yarn.lock
 
 # testing
 /coverage
@@ -27,6 +30,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
 
 # vercel
 .vercel
@@ -34,3 +41,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.env
