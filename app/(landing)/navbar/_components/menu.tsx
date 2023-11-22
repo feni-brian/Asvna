@@ -99,9 +99,7 @@ export function MenuBar() {
 				</NavigationMenuItem>
 				<NavigationMenuItem>
 					<Link href="/pricing" legacyBehavior passHref>
-						<div>
-							<NavigationMenuLink className={navigationMenuTriggerStyle()}>Pricing</NavigationMenuLink>
-						</div>
+						<NavigationMenuLink className={navigationMenuTriggerStyle()}>Pricing</NavigationMenuLink>
 					</Link>
 				</NavigationMenuItem>
 			</NavigationMenuList>
