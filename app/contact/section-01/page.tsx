@@ -132,9 +132,10 @@ export default function Section_01() {
 										</FormControl>
 										<SelectContent>
 											<div className="flex gap-4">
-												<SelectItem value="canada">Canada</SelectItem>
+												<SelectItem value="canada">🇨🇦 Canada</SelectItem>
 											</div>
-											<SelectItem value="usa">USA</SelectItem>
+											<SelectItem value="usa">🇺🇸 USA</SelectItem>
+											<SelectItem value="usa">🇺🇬 UG</SelectItem>
 										</SelectContent>
 									</Select>
 									<FormMessage />
@@ -157,11 +158,11 @@ export default function Section_01() {
 											<div className="flex gap-4">
 												<SelectItem value="1-10">1-10</SelectItem>
 											</div>
-											<SelectItem value="1-10">11-50</SelectItem>
-											<SelectItem value="1-10">51-100</SelectItem>
-											<SelectItem value="1-10">101-200</SelectItem>
-											<SelectItem value="1-10">201-500</SelectItem>
-											<SelectItem value="1-10">500+</SelectItem>
+											<SelectItem value="11-50">11-50</SelectItem>
+											<SelectItem value="51-100">51-100</SelectItem>
+											<SelectItem value="101-200">101-200</SelectItem>
+											<SelectItem value="201-500">201-500</SelectItem>
+											<SelectItem value="500+">500+</SelectItem>
 										</SelectContent>
 									</Select>
 								</FormItem>
